@@ -706,3 +706,35 @@ section,
   font-weight: 700;
   margin-left: 60px;
 }
+/* sroll to top */
+.scroll-top{
+  position: fixed;
+  visibility:hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index:999999999;
+  background-color: #428bca;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.scroll-top.active{
+  visibility: visible;
+  opacity: 1;
+}
+.scroll-top i{
+  color:white;
+  font-size: 24px;
+}
+.scroll-top:hover{
+  background-color: #76acda9f;
+  i{
+    color:#428bca;
+  }
+}
+/* services */
+.services{
+
+}
