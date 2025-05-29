@@ -951,9 +951,14 @@ transition: all .3s ease-in-out;
   padding: 0;
   margin: 15px 0 0 0;
 }
-.team .img-team{
-  width: 80%;
-  height: 95%;
-  padding: 0;
-  margin: 0 10px 0 10px;
+/* Team */
+.team .member{
+  position: relative;
+  overflow: hidden; 
+}
+.team .member .member-info{
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  transition: all 0.2s ease-in;
 }
